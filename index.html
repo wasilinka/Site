@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="header">
+        <h1></h1>
+    </div>
+
+    <div class="container">
+        <div class="item one selected">
+            <h4>Темпура "Лосось"</h4>
+            <p class="par">приносят эстетическое удовольствие</p>
+            <p class="price">18 руб</p>
+        </div>
+
+        <div class="item two">
+            <h4>Филадельфия "Лайт"</h4>
+            <p class="par">тает во рту</p>
+            <p class="price">17 руб</p>
+        </div>
+
+        <div class="item three">
+            <h4>Спешл</h4>
+            <p class="par">заряжает энергией</p>
+            <p class="price">21 руб</p>
+        </div>
+
+        <div class="item four">
+            <h4>Ролл "Фудзияма"</h4>
+            <p class="par">неповторимый вкус</p>
+            <p class="price">20 руб</p>
+        </div>
+
+        <div class="item five">
+            <h4>Ролл c тунцом</h4>
+            <p class="par">попробуй</p>
+            <p class="price">17 руб</p>
+        </div>
+
+        <div class="item six">
+            <h4>Суши "Ассорти"</h4>
+            <p class="par">вместо тысячи слов</p>
+            <p class="price">21 руб</p>
+        </div>
+    </div>
+    
+    <div class="header">
+        <h3>Отправить сообщение!</h3>
+    </div>
+
+    <form
+    action="https://formspree.io/f/xrgnoeqj"
+    method="POST">
+
+    <input type ="hidden" name="_language" value="ru" />
+
+
+<div class="header">
+    <label>
+        Ваш email:
+        <input type="email" class="text-input" name="_replyto" placeholder="Ваш email..." required="">
+    </label>
+</div>
+
+<div class="header">
+    <label>
+        Ваше сообщение:
+        <textarea class="text-input" name="message" placeholder="Введите сообщение..." required=""></textarea>
+    </label>
+</div>
+
+<br>
+    <!-- your other form fields go here -->
+
+<div class="header"> 
+    <button class="btn" type="submit">Отправить</button>
+</div>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

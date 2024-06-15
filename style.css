@@ -1,0 +1,117 @@
+body {
+    background-color:burlywood;
+   
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+h1, h3 {
+    font-family: "Pacifico", cursive;
+    font-size: 60px;
+}
+ 
+.container {
+    display: flex;
+}
+
+.item {
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    font-family: "Pacifico", cursive;
+    flex: 1;
+    margin: 5px;
+    position: relative;
+}
+
+h4 {
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    background-color:#000000;
+    color: #fff;
+    font-size: 0;
+}
+
+.par {
+    position: absolute;
+    top: 115px;
+    left: 40px;
+    background-color:#000000;
+    color: #fff;
+    font-size: 0;
+}
+
+.price {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    background-color:#000000;
+    color: #fff;
+    font-size: 0;
+}
+
+.selected {
+    flex: 4;
+}
+
+.selected h4 {
+    font-size: 40px;
+    transition: all 1s ease-in;
+}
+
+.selected .par {
+    font-size: 20px;
+    transition: all 1s ease-in;
+}
+
+.selected .price {
+    font-size: 35px;
+    transition: all 1s ease-in;
+}
+
+label {
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+}
+
+.text-input {
+    background-color:burlywood;
+    border: none;
+    padding: 12px 20 px;
+}
+
+.btn {
+    font-family: "Pacifico", cursive;
+    font-size: 35px;
+    background-color: #7eb01a;
+    flex: 1;
+}
+
+
+.one {
+    background-image: url('https://cdn.glitch.global/e0bf9fdd-954a-4336-8e04-85d56dda6280/1.jpeg?v=1717416183570');
+}
+
+.two{
+    background-image: url('https://cdn.glitch.global/e0bf9fdd-954a-4336-8e04-85d56dda6280/2.jpeg?v=1717416181290');
+}
+
+.three {
+    background-image: url('https://cdn.glitch.global/e0bf9fdd-954a-4336-8e04-85d56dda6280/3.jpeg?v=1717416180495');
+}
+
+.four {
+    background-image: url('https://cdn.glitch.global/e0bf9fdd-954a-4336-8e04-85d56dda6280/4.jpeg?v=1717416189731');
+}
+
+.five {
+    background-image: url('https://cdn.glitch.global/e0bf9fdd-954a-4336-8e04-85d56dda6280/5.jpeg?v=1717416192934');
+}
+
+.six {
+    background-image: url('https://cdn.glitch.global/e0bf9fdd-954a-4336-8e04-85d56dda6280/6.jpeg?v=1717416186870'); 
+}
